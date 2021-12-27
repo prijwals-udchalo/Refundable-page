@@ -52,6 +52,9 @@ p {
   font-size: 2rem;
   word-spacing: 1px;
   line-height: 3rem;
+  text-align: center;
+  text-align: justify;
+  text-align-last: center;
 }
 
 /* ---------- Process ------------- */
@@ -136,7 +139,7 @@ p {
 
 .process-note-btn {
   padding: 7px 6px;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 500;
   background: #32996a;
   text-transform: uppercase;
@@ -276,7 +279,7 @@ p {
   border: 2px solid black;
   background-color: #f5fff9;
   text-align: left;
-  font-size: 1.9rem;
+  font-size: 1.5rem;
   color: #545454;
   width: 87%;
   margin: 0.5rem auto;
