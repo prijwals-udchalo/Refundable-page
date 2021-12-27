@@ -52,7 +52,6 @@ p {
   font-size: 2rem;
   word-spacing: 1px;
   line-height: 3rem;
-  text-align: center;
   text-align: justify;
   text-align-last: center;
 }
@@ -82,6 +81,14 @@ p {
   margin: 0 auto;
   margin-bottom: 1rem;
 }
+
+.row{
+  /* background-color: #78b6e3; */
+  /* align-items: stretch; */
+}
+.card-container{
+  /* display: flex; */
+}
 .card_four {
   text-align: center;
   padding: 4.5rem 0.5rem 0.5rem 1rem;
@@ -96,7 +103,9 @@ p {
   position: relative;
   border-bottom: 4px solid #78b6e3;
   box-shadow: 0px 0px 1px 0px rgba(197, 197, 197, 0.75);
-  height: 18rem;
+  /* text-align: justify;
+  text-align-last: center; */
+  height: 20rem;
 }
 
 .card-numbering {
@@ -114,6 +123,7 @@ p {
   font-weight: 600;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   background-color: #fff;
+  
 }
 
 .card-numbering p {
@@ -174,9 +184,13 @@ p {
 #pills-profile {
   /* Background color of lang button list */
   /* background-color: #F0F8FF; */
+
   background-color: #f2fff7;
 }
 
+/* .nav-items{
+  padding: .2rem;
+} */
 .eligible-box {
   display: flex;
   gap: 4px;
@@ -383,10 +397,24 @@ p {
 }
 
 /* ------------Responsive------------ */
-
+@media (min-device-width: 769px) and (max-device-width: 1199px){
+  .row{
+    /* background-color: #78b6e3; */
+    align-items: stretch;
+  }
+  .card-container{
+    display: flex;
+  }
+  .card_four{
+    height: auto ;
+  }
+}
 @media (max-width: 480px) {
   html {
     font-size: 9px;
+  }
+  .card_four{
+    height: 18rem;
   }
   .process-note {
     display: block;
