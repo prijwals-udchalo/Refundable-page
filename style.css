@@ -84,14 +84,14 @@ p {
 
 .row{
   /* background-color: #78b6e3; */
-  /* align-items: stretch; */
+  align-items: stretch;
 }
 .card-container{
-  /* display: flex; */
+  display: flex;
 }
 .card_four {
   text-align: center;
-  padding: 4.5rem 0.5rem 0.5rem 1rem;
+  padding: 4.5rem 0.5rem 4rem 1rem;
 
   font-size: 1.8rem;
   line-height: 2.5rem;
@@ -105,7 +105,7 @@ p {
   box-shadow: 0px 0px 1px 0px rgba(197, 197, 197, 0.75);
   /* text-align: justify;
   text-align-last: center; */
-  height: 20rem;
+  /* height: 20rem; */
 }
 
 .card-numbering {
@@ -407,6 +407,7 @@ p {
   }
   .card_four{
     height: auto ;
+    padding: 4.5rem 0.5rem .5rem 1rem;
   }
 }
 @media (max-width: 480px) {
